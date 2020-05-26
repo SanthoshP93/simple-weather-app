@@ -1,0 +1,44 @@
+
+.flx{
+    display: flex;
+    padding-left:5%;
+    background-color: antiquewhite;
+}
+.title{
+    color:green;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 190%;
+
+}
+.nav{
+    margin-left:5%;
+    margin-top:1%;
+}
+img{
+    height:200px;
+    width:200px;
+}
+
+a{
+    text-decoration: none;
+    color:gray;
+    font-size: 120%;
+}
+
+a:hover{
+    color:green;
+    text-decoration: underline;
+}
+
+.bod{
+    color:rgb(54, 45, 45);
+    height:100%;
+    display: table;
+    margin:auto;
+    font-size: 120%;
+    padding-top:5%;
+}
+#displayText{
+    margin:3%;
+}
