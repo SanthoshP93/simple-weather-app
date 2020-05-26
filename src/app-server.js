@@ -13,6 +13,7 @@ const partialPath = path.join(__dirname, '../template/partials')
 
 const getWeather = require('./service')
 
+const port = process.env.PORT || 3000;
 
 app.set('view engine', 'hbs')
 app.set('views', viewsPath)
@@ -128,6 +129,6 @@ app.get('*', (req, res) => {
 })
 
 
-app.listen(3000, () => {
-  console.log('server 3000 is up!')
+app.listen(port, () => {
+  console.log('server '+port+' is up!')
 })
