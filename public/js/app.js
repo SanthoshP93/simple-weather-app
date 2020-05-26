@@ -10,7 +10,7 @@ formdata.addEventListener('submit',(e)=>{
 
    if(textValue.value != ''){
     ele.textContent = 'fetching...'
-       fetch('http://localhost:3000/getWeatherinfo?address='+textValue.value).then((res)=>{
+       fetch('/getWeatherinfo?address='+textValue.value).then((res)=>{
 
        res.json().then((data)=>{
       
