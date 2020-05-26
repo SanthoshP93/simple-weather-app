@@ -4,7 +4,8 @@
   "description": "",
   "main": "app-server.js",
   "scripts": {
-    "start":"node src/app-server.js",
+    "start": "node src/app-server.js",
+    "dev": "nodemon src/app-server.js -e js,hbs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,5 +15,8 @@
     "express": "^4.17.1",
     "hbs": "^4.0.1",
     "postman-request": "^2.88.1-postman.22"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }
