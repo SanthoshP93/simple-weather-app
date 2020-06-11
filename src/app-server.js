@@ -4,8 +4,7 @@ const fs = require('fs')
 const hbs = require('hbs')
 
 const app = express()
-
-
+//routes
 const allRoutes = path.join(__dirname, '../public')
 const viewsPath = path.join(__dirname, '../template/views')
 const partialPath = path.join(__dirname, '../template/partials')
